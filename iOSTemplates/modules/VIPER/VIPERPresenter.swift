@@ -51,7 +51,7 @@ extension VIPERPresenter: VIPERPresenterProtocol {
         viewControllerDelegate.setButtonText(data.buttonText)
     }
     
-    // MARK: Navigate
+    // MARK: Navigation
     /// Delegate to Router
     
     func buttonTapped() {

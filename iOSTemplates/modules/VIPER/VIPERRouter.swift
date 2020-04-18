@@ -34,7 +34,7 @@ protocol VIPERRouterProtocol: RouterProtocol {
 
 extension VIPERRouter: VIPERRouterProtocol {
     
-    // MARK: Navigate
+    // MARK: Navigation
     /// Implement your  functions to navigate to other modules here
     
     func alert(title: String, message: String) {

@@ -19,7 +19,7 @@ class MVCViewController: ViewController {
     // MARK: Private attributes
     /// Define your private variables here
     
-    // MARK: Lifecicle
+    // MARK: Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,8 +68,8 @@ class MVCViewController: ViewController {
         return moduleData
     }
     
-    // MARK: Data Processing
-    /// Proccess your data here
+    // MARK: Data Processing + Rendering
+    /// Proccess your data and render here
     
     func setModuleData(_ data: ModuleData) {
         title = data.title
@@ -78,7 +78,7 @@ class MVCViewController: ViewController {
         buttonOk.setTitle(data.buttonText, for: .normal)
     }
     
-    // MARK: Navigate
+    // MARK: Navigation
     /// Implement your  functions to navigate to other modules here
     
     func buttonTapped() {

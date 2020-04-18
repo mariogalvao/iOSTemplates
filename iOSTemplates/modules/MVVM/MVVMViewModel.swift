@@ -61,7 +61,7 @@ extension MVVMViewModel: MVVMViewModelProtocol {
         viewControllerDelegate.setButtonText(data.buttonText)
     }
     
-    // MARK: Navigate
+    // MARK: Navigation
     /// Implement your  functions to navigate to other modules here
     
     func buttonTapped() {

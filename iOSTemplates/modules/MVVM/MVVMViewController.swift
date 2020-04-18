@@ -21,13 +21,14 @@ class MVVMViewController: ViewController {
     
     var viewModelDelegate: MVVMViewModelProtocol?
     
-    // MARK: Lifecicle
+    // MARK: Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         if let viewModelDelegate = self.viewModelDelegate {
+            /// Delegate Data Processing and API Requests to ViewModel
             viewModelDelegate.setModuleData(viewModelDelegate.getModuleData())
         }
     }
@@ -47,6 +48,7 @@ class MVVMViewController: ViewController {
     // MARK: Actions
     
     @IBAction func buttonOkTapped(_ sender: Any) {
+        // Delegate Navigation to ViewModel
         viewModelDelegate?.buttonTapped()
     }
     

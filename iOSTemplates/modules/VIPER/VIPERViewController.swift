@@ -21,7 +21,7 @@ class VIPERViewController: ViewController {
     
     var presenterDelegate: VIPERPresenterProtocol?
     
-    // MARK: Lifecicle
+    // MARK: Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
