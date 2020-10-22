@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MVVMViewController" customModule="iOSTemplates" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MVVMViewController" customModule="iOS_Templates" customModuleProvider="target">
             <connections>
                 <outlet property="buttonOk" destination="kUB-3N-jc2" id="OuB-k2-Ztp"/>
                 <outlet property="imageView" destination="cVK-8d-Zgl" id="htX-lK-oDd"/>
@@ -32,7 +33,7 @@
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9J-8L-nC1">
                             <rect key="frame" x="24" y="267.5" width="366" height="279.5"/>
-                            <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue velit, pellentesque at fermentum in, finibus et diam. Curabitur imperdiet tincidunt lorem, vitae congue enim facilisis vel. Morbi at sagittis augue, vitae consequat quam. Nunc tristique dignissim nibh tincidunt ultrices. Donec sed mauris ultricies, maximus augue id, molestie sapien. Morbi at odio eget eros mollis malesuada. Nullam pulvinar blandit posuere. Cras erat risus, aliquam quis imperdiet nec, porttitor vel eros. Fusce ultricies laoreet arcu eu sodales.</mutableString>
+                            <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue velit, pellentesque at fermentum in, finibus et diam. Curabitur imperdiet tincidunt lorem, vitae congue enim facilisis vel. Morbi at sagittis augue, vitae consequat quam. Nunc tristique dignissim nibh tincidunt ultrices. Donec sed mauris ultricies, maximus augue id, molestie sapien. Morbi at odio eget eros mollis malesuada. Nullam pulvinar blandit posuere. Cras erat risus, aliquam quis imperdiet nec, porttitor vel eros. Fusce ultricies laoreet arcu eu sodales.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -43,15 +44,15 @@
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eU7-p5-u4r">
                     <rect key="frame" x="0.0" y="764" width="414" height="98"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUB-3N-jc2">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUB-3N-jc2">
                             <rect key="frame" x="24" y="24" width="366" height="50"/>
-                            <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="backgroundColor" systemColor="labelColor"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="0Aa-x6-QHs"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <state key="normal" title="Ok, thanks">
-                                <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                             </state>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -66,7 +67,8 @@
                     <edgeInsets key="layoutMargins" top="24" left="24" bottom="24" right="24"/>
                 </stackView>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="dbS-Y7-KlL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0JI-g3-6ly"/>
                 <constraint firstItem="eU7-p5-u4r" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="8Mz-Dx-SzU"/>
@@ -76,11 +78,19 @@
                 <constraint firstItem="eU7-p5-u4r" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="imE-om-H96"/>
                 <constraint firstItem="dbS-Y7-KlL" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="xkR-3V-Qik"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="132.58928571428572"/>
         </view>
     </objects>
     <resources>
         <image name="MVVM" width="600" height="350"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

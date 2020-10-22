@@ -14,12 +14,13 @@
 		D50644BD244B915400AC31BB /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50644BC244B915400AC31BB /* Interactor.swift */; };
 		D50644BF244B93CE00AC31BB /* VIPERRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50644BE244B93CE00AC31BB /* VIPERRouter.swift */; };
 		D50644C1244B93DE00AC31BB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50644C0244B93DE00AC31BB /* Router.swift */; };
+		D52AE6822541027900E7FF9D /* MVVMViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52AE6812541027900E7FF9D /* MVVMViewModelTests.swift */; };
 		D55BA1E7244B46AE002CD4C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA1E6244B46AE002CD4C8 /* AppDelegate.swift */; };
 		D55BA1E9244B46AE002CD4C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA1E8244B46AE002CD4C8 /* SceneDelegate.swift */; };
 		D55BA1EB244B46AE002CD4C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA1EA244B46AE002CD4C8 /* ViewController.swift */; };
 		D55BA1F0244B46AF002CD4C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55BA1EF244B46AF002CD4C8 /* Assets.xcassets */; };
 		D55BA1F3244B46AF002CD4C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55BA1F1244B46AF002CD4C8 /* LaunchScreen.storyboard */; };
-		D55BA1FE244B46B0002CD4C8 /* iOSTemplatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA1FD244B46B0002CD4C8 /* iOSTemplatesTests.swift */; };
+		D55BA1FE244B46B0002CD4C8 /* MVCViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA1FD244B46B0002CD4C8 /* MVCViewControllerTests.swift */; };
 		D55BA209244B46B0002CD4C8 /* iOSTemplatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA208244B46B0002CD4C8 /* iOSTemplatesUITests.swift */; };
 		D55BA218244B47D4002CD4C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA216244B47D4002CD4C8 /* TabBarController.swift */; };
 		D55BA222244B4EB8002CD4C8 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA220244B4EB8002CD4C8 /* MVCViewController.swift */; };
@@ -31,6 +32,12 @@
 		D5836F2C244B83DF00E636D4 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5836F2B244B83DF00E636D4 /* MVVMViewController.swift */; };
 		D5836F2E244B860C00E636D4 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5836F2D244B860C00E636D4 /* MVVMViewModel.swift */; };
 		D5836F30244B861D00E636D4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5836F2F244B861D00E636D4 /* ViewModel.swift */; };
+		D5FE56D12540FCB900388595 /* MVVMViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE56D02540FCB900388595 /* MVVMViewControllerTests.swift */; };
+		D5FE56DA2540FD6700388595 /* MVVMViewControllerProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE56D92540FD6700388595 /* MVVMViewControllerProtocolMock.swift */; };
+		D5FE56E22540FDF800388595 /* ViewControllerProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE56E12540FDF800388595 /* ViewControllerProtocolMock.swift */; };
+		D5FE56E72540FEAA00388595 /* ViewModelProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE56E62540FEAA00388595 /* ViewModelProtocolMock.swift */; };
+		D5FE56EC2540FED100388595 /* MVVMViewModelProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE56EB2540FED100388595 /* MVVMViewModelProtocolMock.swift */; };
+		D5FE56F22540FF4A00388595 /* ModuleDataMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FE56F12540FF4A00388595 /* ModuleDataMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,7 @@
 		D50644BC244B915400AC31BB /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		D50644BE244B93CE00AC31BB /* VIPERRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERRouter.swift; sourceTree = "<group>"; };
 		D50644C0244B93DE00AC31BB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D52AE6812541027900E7FF9D /* MVVMViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewModelTests.swift; sourceTree = "<group>"; };
 		D55BA1E3244B46AE002CD4C8 /* iOS Templates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Templates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55BA1E6244B46AE002CD4C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D55BA1E8244B46AE002CD4C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +74,7 @@
 		D55BA1F2244B46AF002CD4C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D55BA1F4244B46AF002CD4C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D55BA1F9244B46B0002CD4C8 /* iOSTemplatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTemplatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D55BA1FD244B46B0002CD4C8 /* iOSTemplatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTemplatesTests.swift; sourceTree = "<group>"; };
+		D55BA1FD244B46B0002CD4C8 /* MVCViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewControllerTests.swift; sourceTree = "<group>"; };
 		D55BA1FF244B46B0002CD4C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D55BA204244B46B0002CD4C8 /* iOSTemplatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTemplatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55BA208244B46B0002CD4C8 /* iOSTemplatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTemplatesUITests.swift; sourceTree = "<group>"; };
@@ -81,6 +89,12 @@
 		D5836F2B244B83DF00E636D4 /* MVVMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 		D5836F2D244B860C00E636D4 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
 		D5836F2F244B861D00E636D4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D5FE56D02540FCB900388595 /* MVVMViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewControllerTests.swift; sourceTree = "<group>"; };
+		D5FE56D92540FD6700388595 /* MVVMViewControllerProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewControllerProtocolMock.swift; sourceTree = "<group>"; };
+		D5FE56E12540FDF800388595 /* ViewControllerProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocolMock.swift; sourceTree = "<group>"; };
+		D5FE56E62540FEAA00388595 /* ViewModelProtocolMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelProtocolMock.swift; sourceTree = "<group>"; };
+		D5FE56EB2540FED100388595 /* MVVMViewModelProtocolMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewModelProtocolMock.swift; sourceTree = "<group>"; };
+		D5FE56F12540FF4A00388595 /* ModuleDataMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDataMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +156,9 @@
 		D55BA1FC244B46B0002CD4C8 /* iOSTemplatesTests */ = {
 			isa = PBXGroup;
 			children = (
-				D55BA1FD244B46B0002CD4C8 /* iOSTemplatesTests.swift */,
+				D5FE56982540F28700388595 /* base */,
+				D5FE56992540F28E00388595 /* modules */,
+				D5FE569A2540F29600388595 /* models */,
 				D55BA1FF244B46B0002CD4C8 /* Info.plist */,
 			);
 			path = iOSTemplatesTests;
@@ -230,6 +246,75 @@
 				D5836F25244B7D1600E636D4 /* UIButon+Utils.swift */,
 			);
 			path = extensions;
+			sourceTree = "<group>";
+		};
+		D5FE56982540F28700388595 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE56E12540FDF800388595 /* ViewControllerProtocolMock.swift */,
+				D5FE56E62540FEAA00388595 /* ViewModelProtocolMock.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		D5FE56992540F28E00388595 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE56C72540F5EB00388595 /* MVC */,
+				D5FE56C82540F5F200388595 /* MVVM */,
+				D5FE56C92540F5F900388595 /* VIPER */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		D5FE569A2540F29600388595 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE56F02540FF3600388595 /* mocks */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D5FE56C72540F5EB00388595 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				D55BA1FD244B46B0002CD4C8 /* MVCViewControllerTests.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		D5FE56C82540F5F200388595 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE56D02540FCB900388595 /* MVVMViewControllerTests.swift */,
+				D52AE6812541027900E7FF9D /* MVVMViewModelTests.swift */,
+				D5FE56D82540FD3A00388595 /* mocks */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		D5FE56C92540F5F900388595 /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		D5FE56D82540FD3A00388595 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE56D92540FD6700388595 /* MVVMViewControllerProtocolMock.swift */,
+				D5FE56EB2540FED100388595 /* MVVMViewModelProtocolMock.swift */,
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
+		D5FE56F02540FF3600388595 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE56F12540FF4A00388595 /* ModuleDataMock.swift */,
+			);
+			path = mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,7 +474,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D55BA1FE244B46B0002CD4C8 /* iOSTemplatesTests.swift in Sources */,
+				D52AE6822541027900E7FF9D /* MVVMViewModelTests.swift in Sources */,
+				D5FE56E22540FDF800388595 /* ViewControllerProtocolMock.swift in Sources */,
+				D5FE56E72540FEAA00388595 /* ViewModelProtocolMock.swift in Sources */,
+				D5FE56EC2540FED100388595 /* MVVMViewModelProtocolMock.swift in Sources */,
+				D5FE56DA2540FD6700388595 /* MVVMViewControllerProtocolMock.swift in Sources */,
+				D5FE56D12540FCB900388595 /* MVVMViewControllerTests.swift in Sources */,
+				D55BA1FE244B46B0002CD4C8 /* MVCViewControllerTests.swift in Sources */,
+				D5FE56F22540FF4A00388595 /* ModuleDataMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +688,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTemplates.app/iOSTemplates";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Templates.app/iOS Templates";
 			};
 			name = Debug;
 		};
@@ -618,7 +710,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTemplates.app/iOSTemplates";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Templates.app/iOS Templates";
 			};
 			name = Release;
 		};

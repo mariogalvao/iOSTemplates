@@ -28,28 +28,16 @@ class MVCViewController: ViewController {
         setModuleData(getModuleData())
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        // Do any additional setup before the view appears
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        
-        // Do any additional setup before the view disappears
-    }
-    
     // MARK: Actions
     
-    @IBAction func buttonOkTapped(_ sender: Any) {
+    @IBAction func buttonOkTapped(_ sender: UIButton) {
         buttonTapped()
     }
     
     // MARK: API Requests
     /// Implement your API functions here
     
-    func getModuleData() -> ModuleData {
+    private func getModuleData() -> ModuleData {
         // Mocking the result, just for an example
         let text = """
             Model:
@@ -71,7 +59,7 @@ class MVCViewController: ViewController {
     // MARK: Data Processing + Rendering
     /// Proccess your data and render here
     
-    func setModuleData(_ data: ModuleData) {
+    private func setModuleData(_ data: ModuleData) {
         title = data.title
         imageView.image = data.image
         labelText.text = data.text
@@ -81,7 +69,7 @@ class MVCViewController: ViewController {
     // MARK: Navigation
     /// Implement your  functions to navigate to other modules here
     
-    func buttonTapped() {
+    private func buttonTapped() {
         alert(title: "MVC bot", message: "You're welcome.")
     }
     

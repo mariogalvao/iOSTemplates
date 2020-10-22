@@ -33,21 +33,9 @@ class MVVMViewController: ViewController {
         }
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        // Do any additional setup before the view appears
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        
-        // Do any additional setup before the view disappears
-    }
-    
     // MARK: Actions
     
-    @IBAction func buttonOkTapped(_ sender: Any) {
+    @IBAction func buttonOkTapped(_ sender: UIButton) {
         // Delegate Navigation to ViewModel
         viewModelDelegate?.buttonTapped()
     }

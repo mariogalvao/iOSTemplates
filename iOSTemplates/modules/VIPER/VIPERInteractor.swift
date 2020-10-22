@@ -22,7 +22,7 @@ class VIPERInteractor: VIPERInteractorProtocol {
     func getModuleData() -> ModuleData {
         // Mocking the result, just for an example
         let text = """
-            Model:
+            Entity:
                 - Data modeling
             ViewController:
                 - Lifecycle
