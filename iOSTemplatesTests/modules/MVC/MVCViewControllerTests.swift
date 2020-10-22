@@ -47,7 +47,7 @@ class MVCViewControllerTests: XCTestCase {
     func test_buttonOkTapped() {
         viewController.buttonOkTapped(viewController.buttonOk)
         
-        let expectation = XCTestExpectation(description: "testButtonOkTapped")
+        let expectation = XCTestExpectation(description: "test_ButtonOkTapped")
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0, execute: {
             let vc = UIApplication.shared.windows.first?.rootViewController?.presentedViewController as? UIAlertController
             XCTAssertNotNil(vc)

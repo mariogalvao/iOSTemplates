@@ -25,6 +25,7 @@
 		D55BA218244B47D4002CD4C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA216244B47D4002CD4C8 /* TabBarController.swift */; };
 		D55BA222244B4EB8002CD4C8 /* MVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BA220244B4EB8002CD4C8 /* MVCViewController.swift */; };
 		D55BA223244B4EB8002CD4C8 /* MVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55BA221244B4EB8002CD4C8 /* MVCViewController.xib */; };
+		D581932C2541ABE300505421 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581932B2541ABE300505421 /* ViewControllerTests.swift */; };
 		D5836F23244B707F00E636D4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5836F22244B707F00E636D4 /* NavigationController.swift */; };
 		D5836F26244B7D1600E636D4 /* UIButon+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5836F25244B7D1600E636D4 /* UIButon+Utils.swift */; };
 		D5836F28244B7E9100E636D4 /* ModuleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5836F27244B7E9100E636D4 /* ModuleData.swift */; };
@@ -82,6 +83,7 @@
 		D55BA216244B47D4002CD4C8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D55BA220244B4EB8002CD4C8 /* MVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCViewController.swift; sourceTree = "<group>"; };
 		D55BA221244B4EB8002CD4C8 /* MVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MVCViewController.xib; sourceTree = "<group>"; };
+		D581932B2541ABE300505421 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		D5836F22244B707F00E636D4 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		D5836F25244B7D1600E636D4 /* UIButon+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButon+Utils.swift"; sourceTree = "<group>"; };
 		D5836F27244B7E9100E636D4 /* ModuleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleData.swift; sourceTree = "<group>"; };
@@ -240,6 +242,15 @@
 			path = models;
 			sourceTree = "<group>";
 		};
+		D581932A2541ABC800505421 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FE56E12540FDF800388595 /* ViewControllerProtocolMock.swift */,
+				D5FE56E62540FEAA00388595 /* ViewModelProtocolMock.swift */,
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
 		D5836F24244B7CFC00E636D4 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,8 +262,8 @@
 		D5FE56982540F28700388595 /* base */ = {
 			isa = PBXGroup;
 			children = (
-				D5FE56E12540FDF800388595 /* ViewControllerProtocolMock.swift */,
-				D5FE56E62540FEAA00388595 /* ViewModelProtocolMock.swift */,
+				D581932B2541ABE300505421 /* ViewControllerTests.swift */,
+				D581932A2541ABC800505421 /* mocks */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -477,6 +488,7 @@
 				D52AE6822541027900E7FF9D /* MVVMViewModelTests.swift in Sources */,
 				D5FE56E22540FDF800388595 /* ViewControllerProtocolMock.swift in Sources */,
 				D5FE56E72540FEAA00388595 /* ViewModelProtocolMock.swift in Sources */,
+				D581932C2541ABE300505421 /* ViewControllerTests.swift in Sources */,
 				D5FE56EC2540FED100388595 /* MVVMViewModelProtocolMock.swift in Sources */,
 				D5FE56DA2540FD6700388595 /* MVVMViewControllerProtocolMock.swift in Sources */,
 				D5FE56D12540FCB900388595 /* MVVMViewControllerTests.swift in Sources */,
